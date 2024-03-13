@@ -1,0 +1,30 @@
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <span role="button" class="navbar-brand" (click)="navigate('')"><img src="../../assets/images/navbar-logo.png" width="150dp" /></span>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <button class="nav-link" (click)="navigate('home')">Home</button>
+          </li>
+          <li class="nav-item">
+            <button class="nav-link" (click)="navigate('projects')">Projects</button>
+          </li>
+          <li class="nav-item">
+            <button class="nav-link" (click)="navigate('get-involved')">Get Involved</button>
+          </li>
+          <li class="nav-item">
+            <button class="nav-link" (click)="navigate('sponsors')">Sponsors</button>
+          </li>
+          <li class="nav-item">
+            <button class="nav-link" (click)="navigate('calendar')">Calendar</button>
+          </li>
+          <li class="nav-item">
+            <button class="nav-link" (click)="navigate('contact')">Contact BR</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
