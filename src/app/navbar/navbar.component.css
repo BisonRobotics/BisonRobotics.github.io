@@ -6,3 +6,7 @@ nav {
     color: white;
     font-size: large;
 }
+
+.navbar-toggler{
+    background-color: yellow;
+}
