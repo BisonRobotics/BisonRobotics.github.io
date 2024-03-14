@@ -8,5 +8,18 @@ nav {
 }
 
 .navbar-toggler{
-    background-color: yellow;
+    background-color: #ffc72a;
 }
+
+.active{
+    color: black;
+}
+
+.nav-item{
+    border: 1px solid #0f4630;
+    border-radius: 10px;
+    padding-left: 1%;
+    margin-bottom: 2px;
+    transform: rotate(0);
+}
+
