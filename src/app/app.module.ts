@@ -13,10 +13,12 @@ import { NasaComponent } from './projects/nasa/nasa.component';
 import { Ri3dComponent } from './projects/ri3d/ri3d.component';
 import { SnowplowComponent } from './projects/snowplow/snowplow.component';
 import { VexuComponent } from './projects/vexu/vexu.component';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   imports:      [
-    BrowserModule
+    BrowserModule,
+    CommonModule
   ],
   declarations: [
     AppComponent,
