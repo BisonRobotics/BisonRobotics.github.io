@@ -14,6 +14,7 @@ import { Ri3dComponent } from './projects/ri3d/ri3d.component';
 import { SnowplowComponent } from './projects/snowplow/snowplow.component';
 import { VexuComponent } from './projects/vexu/vexu.component';
 import { CommonModule } from '@angular/common';
+import { ProjectComponent } from './projects/project/project.component';
 
 @NgModule({
   imports:      [
@@ -29,6 +30,7 @@ import { CommonModule } from '@angular/common';
     HomeComponent,
     NasaComponent,
     NavbarComponent,
+    ProjectComponent,
     ProjectsComponent,
     Ri3dComponent,
     SnowplowComponent,
