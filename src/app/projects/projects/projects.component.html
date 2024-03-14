@@ -1,0 +1,17 @@
+<div class="content">
+    <h1>Organization Purpose</h1>
+    <p>Currently composed of approximately 100 North Dakota State University students, Bison Robotics is an organization
+        the
+        strives to promote and advance student knowledge in the areas of science, technology, engineering, mathematics,
+        professionalism, and leadership. As an organization, Bison Robotics participates year-round in both
+        engineering-based competitions as well as in service-based events; examples of both can be found below. Each of
+        these subcategories of activity varies immensely and allows the organization to have a well-rounded presence in
+        its
+        community and beyond. The organization competes in 5 different collegiate level competitions</p>
+    <h2>Student Projects</h2>
+    <ul>
+        <li *ngFor="let project of projects">
+            <span class="project-name" role="button" (click)="project.navigate()">{{project.name}}</span>
+        </li>
+    </ul>
+</div>
