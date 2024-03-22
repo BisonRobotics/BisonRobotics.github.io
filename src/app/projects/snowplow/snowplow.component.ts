@@ -26,4 +26,6 @@ export class SnowplowComponent {
   voluptas sequi. Optio, officiis ex aperiam beatae dolor saepe nesciunt vel voluptates odit aut commodi atque, vitae
   doloremque sequi nulla magnam deleniti pariatur?`;
 
+  name = 'Autonomous Snowplow';
+
 }

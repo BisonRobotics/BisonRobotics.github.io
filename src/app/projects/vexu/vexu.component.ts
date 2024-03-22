@@ -25,5 +25,7 @@ export class VexuComponent {
   quisquam cupiditate optio, fugit similique quidem nihil ex ea repudiandae amet hic, labore beatae recusandae
   voluptas sequi. Optio, officiis ex aperiam beatae dolor saepe nesciunt vel voluptates odit aut commodi atque, vitae
   doloremque sequi nulla magnam deleniti pariatur?`;
+
+  name = 'Vex U';
   
 }

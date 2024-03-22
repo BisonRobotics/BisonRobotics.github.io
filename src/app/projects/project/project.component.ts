@@ -9,6 +9,7 @@ import { Component, Input } from '@angular/core';
 })
 export class ProjectComponent {
 
+  @Input() projectName: string = '';
   @Input() banner: { src: string, alt: string } = { src: '', alt: '' };
   @Input() text: string = '';
 

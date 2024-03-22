@@ -26,4 +26,6 @@ export class Ri3dComponent {
   voluptas sequi. Optio, officiis ex aperiam beatae dolor saepe nesciunt vel voluptates odit aut commodi atque, vitae
   doloremque sequi nulla magnam deleniti pariatur?`;
 
+  name = 'Robot in 3 Days'
+
 }
