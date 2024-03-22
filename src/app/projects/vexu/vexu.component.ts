@@ -17,14 +17,13 @@ export class VexuComponent {
     alt: 'Vex U Banner'
   };
 
-  text = `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit quis voluptatibus qui quos. Sint delectus quidem
-  perspiciatis. Porro odio illo earum sint debitis culpa eaque ipsa reiciendis excepturi dolore in voluptate assumenda
-  amet odit, mollitia reprehenderit fugit dolor unde optio iste eligendi incidunt, eveniet minima aperiam. Fugiat ad
-  quia laboriosam ducimus, pariatur blanditiis aliquam sapiente nostrum ex sunt quod qui esse quidem recusandae nobis
-  iusto commodi aperiam maiores quaerat ab cupiditate illo fuga corporis modi. Tempore autem ad libero harum, repellat
-  quisquam cupiditate optio, fugit similique quidem nihil ex ea repudiandae amet hic, labore beatae recusandae
-  voluptas sequi. Optio, officiis ex aperiam beatae dolor saepe nesciunt vel voluptates odit aut commodi atque, vitae
-  doloremque sequi nulla magnam deleniti pariatur?`;
+  text = `
+  VEX Robotics releases a new engineering challenge each year 
+  for teams to solve in a head-to-head robotics competition. 
+  This year, the VEX U team has moved into The Incubator at the 
+  NDSU Research & Technology Park. We are ready to get back to 
+  an in-person competition with this year's challenge – Tipping Point.
+  `;
 
   name = 'Vex U';
   

@@ -17,14 +17,12 @@ export class CombatComponent {
     alt: 'Combat Banner'
   };
 
-  text = `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit quis voluptatibus qui quos. Sint delectus quidem
-  perspiciatis. Porro odio illo earum sint debitis culpa eaque ipsa reiciendis excepturi dolore in voluptate assumenda
-  amet odit, mollitia reprehenderit fugit dolor unde optio iste eligendi incidunt, eveniet minima aperiam. Fugiat ad
-  quia laboriosam ducimus, pariatur blanditiis aliquam sapiente nostrum ex sunt quod qui esse quidem recusandae nobis
-  iusto commodi aperiam maiores quaerat ab cupiditate illo fuga corporis modi. Tempore autem ad libero harum, repellat
-  quisquam cupiditate optio, fugit similique quidem nihil ex ea repudiandae amet hic, labore beatae recusandae
-  voluptas sequi. Optio, officiis ex aperiam beatae dolor saepe nesciunt vel voluptates odit aut commodi atque, vitae
-  doloremque sequi nulla magnam deleniti pariatur?`;
+  text = `
+  Combat Robotics is very similar to the popular TV show Battle Bots.
+  We design robots specifically to deal damage to other robots. This 
+  year our group is designing 3 30-pound robots and 2 15-pound robots 
+  for their respective competitions this spring.
+  `;
 
   name = 'Combat Robotics';
 

@@ -17,14 +17,13 @@ export class SnowplowComponent {
     alt: 'Autonomous Snowplow Banner'
   };
 
-  text = `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit quis voluptatibus qui quos. Sint delectus quidem
-  perspiciatis. Porro odio illo earum sint debitis culpa eaque ipsa reiciendis excepturi dolore in voluptate assumenda
-  amet odit, mollitia reprehenderit fugit dolor unde optio iste eligendi incidunt, eveniet minima aperiam. Fugiat ad
-  quia laboriosam ducimus, pariatur blanditiis aliquam sapiente nostrum ex sunt quod qui esse quidem recusandae nobis
-  iusto commodi aperiam maiores quaerat ab cupiditate illo fuga corporis modi. Tempore autem ad libero harum, repellat
-  quisquam cupiditate optio, fugit similique quidem nihil ex ea repudiandae amet hic, labore beatae recusandae
-  voluptas sequi. Optio, officiis ex aperiam beatae dolor saepe nesciunt vel voluptates odit aut commodi atque, vitae
-  doloremque sequi nulla magnam deleniti pariatur?`;
+  text = `
+  Autonomous Snowplow challenges students to design and build a 
+  fully autonomous snowplow to remove snow from a path. While also 
+  detecting and avoiding obstacles. We are excited to finish, test, 
+  and compete with our new snowplow HyFlex. We will be competing next 
+  January at Dunwoody College of Technology.
+  `;
 
   name = 'Autonomous Snowplow';
 

@@ -17,14 +17,13 @@ export class Ri3dComponent {
     alt: 'Ri3D Banner'
   };
 
-  text = `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit quis voluptatibus qui quos. Sint delectus quidem
-  perspiciatis. Porro odio illo earum sint debitis culpa eaque ipsa reiciendis excepturi dolore in voluptate assumenda
-  amet odit, mollitia reprehenderit fugit dolor unde optio iste eligendi incidunt, eveniet minima aperiam. Fugiat ad
-  quia laboriosam ducimus, pariatur blanditiis aliquam sapiente nostrum ex sunt quod qui esse quidem recusandae nobis
-  iusto commodi aperiam maiores quaerat ab cupiditate illo fuga corporis modi. Tempore autem ad libero harum, repellat
-  quisquam cupiditate optio, fugit similique quidem nihil ex ea repudiandae amet hic, labore beatae recusandae
-  voluptas sequi. Optio, officiis ex aperiam beatae dolor saepe nesciunt vel voluptates odit aut commodi atque, vitae
-  doloremque sequi nulla magnam deleniti pariatur?`;
+  text = `
+  Ri3D is taking the FIRST Robotics Competition game and 
+  building a robot in 3 days instead of the usual 6 weeks 
+  allotted for teams. The robot is built with items available 
+  to rookie high school teams and this project serves as a 
+  role model of strategy and design for struggling teams.
+  `;
 
   name = 'Robot in 3 Days'
 

@@ -17,14 +17,13 @@ export class NasaComponent {
     alt: 'Nasa Lunabotics Banner'
   };
 
-  text = `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit quis voluptatibus qui quos. Sint delectus quidem
-  perspiciatis. Porro odio illo earum sint debitis culpa eaque ipsa reiciendis excepturi dolore in voluptate assumenda
-  amet odit, mollitia reprehenderit fugit dolor unde optio iste eligendi incidunt, eveniet minima aperiam. Fugiat ad
-  quia laboriosam ducimus, pariatur blanditiis aliquam sapiente nostrum ex sunt quod qui esse quidem recusandae nobis
-  iusto commodi aperiam maiores quaerat ab cupiditate illo fuga corporis modi. Tempore autem ad libero harum, repellat
-  quisquam cupiditate optio, fugit similique quidem nihil ex ea repudiandae amet hic, labore beatae recusandae
-  voluptas sequi. Optio, officiis ex aperiam beatae dolor saepe nesciunt vel voluptates odit aut commodi atque, vitae
-  doloremque sequi nulla magnam deleniti pariatur?`;
+  text = `
+  NASA Robotics Mining Competition is a challenge to build, design, 
+  and program a lunar rover with the purpose of mining for ice and 
+  other materials on the moon. Due to budget constraints this year, 
+  we will not be competing on the Moon, but instead at Kennedy Space 
+  Center in Florida.
+  `;
 
   name = 'NASA Lunabotics';
 
