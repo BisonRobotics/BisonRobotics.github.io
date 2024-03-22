@@ -3,10 +3,6 @@
     margin-left: 20%;
 }
 
-h1 {
-    color: #feba08;
-}
-
 h2 {
     color: #0f5640;
 }
@@ -17,4 +13,5 @@ li {
 
 .project-name {
     color: #feba08;
+    text-decoration: underline;
 }
