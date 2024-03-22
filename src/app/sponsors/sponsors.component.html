@@ -1,1 +1,63 @@
-<p>sponsors works!</p>
+<div class="content">
+    <h1>Our Five Level Sponsorship Program</h1>
+    <p>
+        We have a Five Level Sponsorship program in which each level has a different set of benefits, and in which all
+        rewards per level are included in the next level up. Depending on how much your company donates in money, goods,
+        and/or services, you will be assigned to a different level.
+    </p>
+    <ul>
+        <li class="level-title">Level One: Up to $499</li>
+        <li class="indented-list">
+            <ul>
+                <li>Name on the BR website and social media</li>
+            </ul>
+        </li>
+        <li class="level-title">Level Two: $500–$1499</li>
+        <li class="indented-list">
+            <ul>
+                <li>Name on BR website and social media</li>
+                <li>Logo and company name on our t-shirts</li>
+            </ul>
+        </li>
+        <li class="level-title">Level Three: $1500–$2999</li>
+        <li class="indented-list">
+            <ul>
+                <li>Name on BR website and social media</li>
+                <li>Medium-sized logo on our t-shirts</li>
+                <li>Logo on team banner</li>
+            </ul>
+        </li>
+        <li class="level-title">Level Four: $3000–$4999</li>
+        <li class="indented-list">
+            <ul>
+                <li>Name on BR website and social media</li>
+                <li>Large logo on t-shirts and robot</li>
+                <li>Logo on team banner</li>
+                <li>Invitation to speak at the BR end of the year banquet</li>
+            </ul>
+        </li>
+        <li class="level-title">Level Five: $5000+</li>
+        <li class="indented-list">
+            <ul>
+                <li>Logo and name on BR website and social media</li>
+                <li>Large logo on t-shirts and robot</li>
+                <li>Logo on team banner</li>
+                <li>Invitation to speak at the BR end of the year banquet</li>
+                <li>Whenever it is able to, BR will mention sponsors at events and competitions. The team and the
+                    company will determine a special event or activity to honor the contribution made.</li>
+            </ul>
+        </li>
+    </ul>
+    <h1>Collegiate Sponsors</h1>
+    <img *ngFor="let sponsor of collegiateSponsors" src="{{sponsor.imgSrc}}" alt="{{sponsor.name}}" />
+    <h1>Level Five</h1>
+    <img *ngFor="let sponsor of levelFiveSponsors" src="{{sponsor.imgSrc}}" alt="{{sponsor.name}}" />
+    <h1>Level Four</h1>
+    <img *ngFor="let sponsor of levelFourSponsors" src="{{sponsor.imgSrc}}" alt="{{sponsor.name}}" />
+    <h1>Level Three</h1>
+    <img *ngFor="let sponsor of levelThreeSponsors" src="{{sponsor.imgSrc}}" alt="{{sponsor.name}}" />
+    <h1>Level Two</h1>
+    <img *ngFor="let sponsor of levelTwoSponsors" src="{{sponsor.imgSrc}}" alt="{{sponsor.name}}" />
+    <h1>Level One</h1>
+    <img *ngFor="let sponsor of levelOneSponsors" src="{{sponsor.imgSrc}}" alt="{{sponsor.name}}" />
+</div>

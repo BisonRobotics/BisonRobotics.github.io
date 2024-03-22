@@ -1,0 +1,13 @@
+.content {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.level-title {
+    font-size: larger;
+    color: #0f5640;
+}
+
+.indented-list {
+    list-style: none;
+}
