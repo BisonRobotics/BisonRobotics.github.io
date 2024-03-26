@@ -15,7 +15,7 @@ export class SponsorsComponent {
   collegiateSponsors: { name: string, imgSrc: string }[] = [
     { name: 'NDSU Mechanical Engineering', imgSrc: '' },
     { name: 'NDSU Student Government', imgSrc: '' },
-    { name: 'NDSU Industrial Manufacturing Engineering', imgSrc: '' },
+    { name: 'NDSU Industrial and Manufacturing Engineering', imgSrc: '' },
     { name: 'NDSU College of Engineering', imgSrc: '' }
   ];
 
