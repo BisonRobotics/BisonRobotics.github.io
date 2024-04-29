@@ -18,11 +18,13 @@ export class SnowplowComponent {
   };
 
   text = `
-  Autonomous Snowplow challenges students to design and build a 
-  fully autonomous snowplow to remove snow from a path. While also 
-  detecting and avoiding obstacles. We are excited to finish, test, 
-  and compete with our new snowplow HyFlex. We will be competing next 
-  January at Dunwoody College of Technology.
+  The autonomous snowplow project is to design and build a completely
+  autonomous robot to plow snow. The competition is held every January
+  and focuses on plowing simulated sidewalks while avoiding both moving
+  and stationary obstacles. This requires the project to leverage
+  robust mechanical designs, an array of sensors, and thousands of
+  lines of code. The competition is organized by the Institute of
+  Navigation.
   `;
 
   name = 'Autonomous Snowplow';

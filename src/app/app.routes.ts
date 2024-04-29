@@ -10,6 +10,7 @@ import { CombatComponent } from './projects/combat/combat.component';
 import { Ri3dComponent } from './projects/ri3d/ri3d.component';
 import { SnowplowComponent } from './projects/snowplow/snowplow.component';
 import { VexuComponent } from './projects/vexu/vexu.component';
+import { VolunteeringComponent } from './projects/volunteering/volunteering.component';
 
 export const routes: Routes = [
     {
@@ -51,6 +52,11 @@ export const routes: Routes = [
         path: 'projects/vexu',
         component: VexuComponent,
         title: 'Bison Robotics | Vex U'
+    },
+    {
+        path: 'projects/volunteering',
+        component: VolunteeringComponent,
+        title: 'Bison Robotics | Volunteering'
     },
     {
         path: 'get-involved',

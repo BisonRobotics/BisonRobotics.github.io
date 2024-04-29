@@ -18,11 +18,11 @@ export class NasaComponent {
   };
 
   text = `
-  NASA Robotics Mining Competition is a challenge to build, design, 
-  and program a lunar rover with the purpose of mining for ice and 
-  other materials on the moon. Due to budget constraints this year, 
-  we will not be competing on the Moon, but instead at Kennedy Space 
-  Center in Florida.
+  Students design and build mining robots for a NASA-organized cometition.
+  These bots navigate challenging simulated off-world terrain. During
+  the competition, the robots separate extraterrestrial gravel from dust
+  and return the gravel, or regolith, to a collector bin to simulate
+  mining missions on other planets.
   `;
 
   name = 'NASA Lunabotics';

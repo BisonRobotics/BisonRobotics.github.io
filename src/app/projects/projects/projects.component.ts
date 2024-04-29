@@ -33,6 +33,10 @@ export class ProjectsComponent {
     {
       name: 'Vex U',
       navigate: () => this.navigate('projects/vexu')
+    },
+    {
+      name: 'Volunteering',
+      navigate: () => this.navigate('projects/volunteering')
     }
   ];
 
