@@ -18,10 +18,10 @@ export class CombatComponent {
   };
 
   text = `
-  Combat Robotics is very similar to the popular TV show Battle Bots.
-  We design robots specifically to deal damage to other robots. This 
-  year our group is designing 3 30-pound robots and 2 15-pound robots 
-  for their respective competitions this spring.
+  Combat Robotics (battlebots) is exactly what it sounds like; two robots
+  enter an arena and fight each other TO THE DEATH. We design, build, and
+  compete with several different robots in the 15-lb and 30-lb weight
+  classes.
   `;
 
   name = 'Combat Robotics';
