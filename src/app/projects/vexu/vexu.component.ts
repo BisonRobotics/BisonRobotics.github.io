@@ -18,12 +18,11 @@ export class VexuComponent {
   };
 
   text = `
-  Vex U is a competition that consists of two robots working together
-  to achieve a higher score than the opposing team. The matches are 2
-  minutes long, 45 seconds of autonomous program, then 1 minute 15
-  seconds of driver controlled play. Every year the challenge changes
-  to fit real world design problems to keep innovative, cost effective
-  designs alive.
+  VEX Robotics releases a new engineering challenge each year 
+  for teams to solve in a head-to-head robotics competition. 
+  This year, the VEX U team has moved into The Incubator at the 
+  NDSU Research & Technology Park. We are ready to get back to 
+  an in-person competition with this year's challenge – Tipping Point.
   `;
 
   name = 'Vex U';

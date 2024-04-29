@@ -15,7 +15,6 @@ import { SnowplowComponent } from './projects/snowplow/snowplow.component';
 import { VexuComponent } from './projects/vexu/vexu.component';
 import { CommonModule } from '@angular/common';
 import { ProjectComponent } from './projects/project/project.component';
-import { VolunteeringComponent } from './projects/volunteering/volunteering.component';
 
 @NgModule({
   imports:      [
@@ -36,8 +35,7 @@ import { VolunteeringComponent } from './projects/volunteering/volunteering.comp
     Ri3dComponent,
     SnowplowComponent,
     SponsorsComponent,
-    VexuComponent,
-    VolunteeringComponent
+    VexuComponent
   ],
   bootstrap: [
     AppComponent

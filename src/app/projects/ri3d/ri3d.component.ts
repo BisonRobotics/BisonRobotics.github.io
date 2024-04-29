@@ -18,10 +18,11 @@ export class Ri3dComponent {
   };
 
   text = `
-  Robot in 3 Days is a project where we take the typical 6 week FIRST
-  Robotics Competition (FRC) challenge season and condense it to 3 days.
-  The project is focused on mentoring hundreds of teams and highschool
-  students through YouTube, technical papers, and social media.
+  Ri3D is taking the FIRST Robotics Competition game and 
+  building a robot in 3 days instead of the usual 6 weeks 
+  allotted for teams. The robot is built with items available 
+  to rookie high school teams and this project serves as a 
+  role model of strategy and design for struggling teams.
   `;
 
   name = 'Robot in 3 Days'
