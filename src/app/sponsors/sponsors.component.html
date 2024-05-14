@@ -49,15 +49,33 @@
         </li>
     </ul>
     <h1>Collegiate Sponsors</h1>
-    <img *ngFor="let sponsor of collegiateSponsors" src="{{sponsor.imgSrc}}" alt="{{sponsor.name}}" />
+    <div *ngFor="let sponsor of collegiateSponsors">
+        <img class="sponsor-logo" src="{{sponsor.imgSrc}}" alt="{{sponsor.name}}" />
+        <br>
+    </div>
     <h1>Level Five</h1>
-    <img *ngFor="let sponsor of levelFiveSponsors" src="{{sponsor.imgSrc}}" alt="{{sponsor.name}}" />
+    <div *ngFor="let sponsor of levelFiveSponsors">
+        <img class="sponsor-logo" src="{{sponsor.imgSrc}}" alt="{{sponsor.name}}" />
+        <br>
+    </div>
     <h1>Level Four</h1>
-    <img *ngFor="let sponsor of levelFourSponsors" src="{{sponsor.imgSrc}}" alt="{{sponsor.name}}" />
+    <div *ngFor="let sponsor of levelFourSponsors">
+        <img class="sponsor-logo" src="{{sponsor.imgSrc}}" alt="{{sponsor.name}}" />
+        <br>
+    </div>
     <h1>Level Three</h1>
-    <img *ngFor="let sponsor of levelThreeSponsors" src="{{sponsor.imgSrc}}" alt="{{sponsor.name}}" />
+    <div *ngFor="let sponsor of levelThreeSponsors">
+        <img class="sponsor-logo" src="{{sponsor.imgSrc}}" alt="{{sponsor.name}}" />
+        <br>
+    </div>
     <h1>Level Two</h1>
-    <img *ngFor="let sponsor of levelTwoSponsors" src="{{sponsor.imgSrc}}" alt="{{sponsor.name}}" />
+    <div *ngFor="let sponsor of levelTwoSponsors">
+        <img class="sponsor-logo" src="{{sponsor.imgSrc}}" alt="{{sponsor.name}}" />
+        <br>
+    </div>
     <h1>Level One</h1>
-    <img *ngFor="let sponsor of levelOneSponsors" src="{{sponsor.imgSrc}}" alt="{{sponsor.name}}" />
+    <div *ngFor="let sponsor of levelOneSponsors">
+        <img class="sponsor-logo" src="{{sponsor.imgSrc}}" alt="{{sponsor.name}}" />
+        <br>
+    </div>
 </div>

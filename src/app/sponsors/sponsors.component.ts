@@ -13,32 +13,32 @@ import { Component } from '@angular/core';
 export class SponsorsComponent {
 
   collegiateSponsors: { name: string, imgSrc: string }[] = [
-    { name: 'NDSU Mechanical Engineering', imgSrc: '' },
-    { name: 'NDSU Student Government', imgSrc: '' },
-    { name: 'NDSU Industrial and Manufacturing Engineering', imgSrc: '' },
-    { name: 'NDSU College of Engineering', imgSrc: '' }
+    { name: 'NDSU Mechanical Engineering', imgSrc: '../../assets/images/sponsor-logos/ndsu-mechanical-engineering.png' },
+    { name: 'NDSU Student Government', imgSrc: '../../assets/images/sponsor-logos/ndsu-student-government.png' },
+    { name: 'NDSU Industrial and Manufacturing Engineering', imgSrc: '../../assets/images/sponsor-logos/ndsu-ime.png' },
+    { name: 'NDSU College of Engineering', imgSrc: '../../assets/images/sponsor-logos/ndsu-coe.png' }
   ];
 
   levelFiveSponsors: { name: string, imgSrc: string }[] = [];
 
   levelFourSponsors: { name: string, imgSrc: string }[] = [
-    { name: 'Marvin', imgSrc: '' },
-    { name: 'Blow Molded Specialties', imgSrc: '' },
-    { name: 'Packet Digital', imgSrc: '' }
+    { name: 'Marvin', imgSrc: '../../assets/images/sponsor-logos/marvin.png' },
+    { name: 'Blow Molded Specialties', imgSrc: '../../assets/images/sponsor-logos/blow-molded-specialties.png' },
+    { name: 'Packet Digital', imgSrc: '../../assets/images/sponsor-logos/packet-digital.png' }
   ];
 
   levelThreeSponsors: { name: string, imgSrc: string }[] = [
-    { name: 'Dakota Lithium', imgSrc: '' }
+    { name: 'Dakota Lithium', imgSrc: '../../assets/images/sponsor-logos/dakota-lithium.png' }
   ];
 
   levelTwoSponsors: { name: string, imgSrc: string }[] = [
-    { name: 'American Engineering Testing', imgSrc: '' },
-    { name: 'Bobcat', imgSrc: '' },
-    { name: 'Lulzbot', imgSrc: '' }
+    { name: 'American Engineering Testing', imgSrc: '../../assets/images/sponsor-logos/american-engineering-testing.png' },
+    { name: 'Bobcat', imgSrc: '../../assets/images/sponsor-logos/bobcat.svg' },
+    { name: 'Lulzbot', imgSrc: '../../assets/images/sponsor-logos/lulzbot.png' }
   ];
 
   levelOneSponsors: { name: string, imgSrc: string }[] = [
-    { name: 'Apec Engineering Group', imgSrc: '' }
+    { name: 'Apex Engineering Group', imgSrc: '../../assets/images/sponsor-logos/apex-engineering.png' }
   ];
 
 }
