@@ -1,15 +1,90 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
 
 h1 {
-    color: #feba08;
+  color: #feba08;
 }
 
 h2 {
-    color: #0f5640;
+  color: #0f5640;
 }
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+/* FullCalendar custom styles */
+
+.fc ol {
+  list-style: none !important;
+}
+
+/* Event background */
+.fc-event {
+  background-color: #ffd91c !important;
+  border-color: #ffd91c !important;
+}
+
+/* Event text */
+.fc-event-title {
+  color: #000000 !important;
+}
+
+.fc-event-time {
+  color: #000000 !important;
+}
+
+/* Toolbar (header) */
+.fc-toolbar {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.fc-button {
+  background-color: #0f5640 !important;
+}
+
+/* Day headers */
+.fc-col-header-cell {
+  background-color: #013006;
+  color: #feba08;
+  border-color: #013006 !important;
+}
+
+/* Today highlight */
+.fc-day-today {
+  background-color: #ffe0b2 !important;
+}
+
+/* Day cells*/
+.fc-daygrid-day {
+  border-color: #0f5640 !important;
+}
+
+.fc-daygrid-day-number {
+  color: #0f5640 !important;
+  text-decoration: none !important;
+}
+
+.fc-toolbar-title {
+  color: #0f5640 !important;
+}
+
+/* Mon - Tue - Wed - Thu - Fri - Sat - Sun */
+.fc-col-header-cell-cushion {
+  color: #feba08 !important;
+  text-decoration: none !important;
+}

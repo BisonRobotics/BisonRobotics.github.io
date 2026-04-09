@@ -1,1 +1,15 @@
-<p>event-display works!</p>
+<div class="container p-5" style="background-color: #013004">
+  <div class="card" style="border-width: 0px">
+    <div class="card-header" style="background-color: #0f5640">
+      <h5 class="card-title" style="color: #feba08">{{ data.title }}</h5>
+    </div>
+    <div class="card-body">
+      <p>
+        Time: {{ startTime() }}-{{ endTime() }} {{ data.start.getDay() }}/{{
+          data.start.getMonth() + 1
+        }}/{{ data.start.getFullYear() }}
+      </p>
+      <p>Location: {{ data.extendedProps.location }}</p>
+    </div>
+  </div>
+</div>
