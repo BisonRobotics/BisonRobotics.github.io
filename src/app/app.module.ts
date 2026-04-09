@@ -1,6 +1,6 @@
-import { NgModule }      from '@angular/core';
+import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { AppComponent }  from './app.component';
+import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { CalendarComponent } from './calendar/calendar.component';
 import { ContactComponent } from './contact/contact.component';
@@ -15,12 +15,10 @@ import { SnowplowComponent } from './projects/snowplow/snowplow.component';
 import { VexuComponent } from './projects/vexu/vexu.component';
 import { CommonModule } from '@angular/common';
 import { ProjectComponent } from './projects/project/project.component';
+import { FullCalendarModule } from '@fullcalendar/angular';
 
 @NgModule({
-  imports:      [
-    BrowserModule,
-    CommonModule
-  ],
+  imports: [BrowserModule, CommonModule, FullCalendarModule],
   declarations: [
     AppComponent,
     CalendarComponent,
@@ -35,10 +33,8 @@ import { ProjectComponent } from './projects/project/project.component';
     Ri3dComponent,
     SnowplowComponent,
     SponsorsComponent,
-    VexuComponent
+    VexuComponent,
   ],
-  bootstrap: [
-    AppComponent
-  ]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
