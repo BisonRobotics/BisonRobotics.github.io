@@ -22,15 +22,17 @@ export class CalendarComponent {
     initialView: 'dayGridMonth',
     plugins: [dayGridPlugin, googleCalendarPlugin],
     //add environment variable perhaps
-    googleCalendarApiKey: 'AIzaSyCXCN2IyYUlth2t3pjNnQTK5lNsLyP9wFo',
+    googleCalendarApiKey: 'AIzaSyASm0hwYllS01N-t7Ezh7Q4Sxs-Eijk6S4',
     events: {
       googleCalendarId:
         //add environement variable perhaps
-        'faa536c5da165c4230b5a8e9b6d60bb5772149fc6ed416ed83fb557d4ec5b9bc@group.calendar.google.com',
+        '87d305acb2bb9bbeb8c7a16692a88ed5e0d864c8bd8a1d3a440bae8b3c1fe77f@group.calendar.google.com',
     },
     eventClick: (info) => {
       this.dialog.open(EventDisplayComponent, {
         data: info.event,
+        panelClass: 'custom-dialog',
+        hasBackdrop: true,
       });
       info.jsEvent.preventDefault(); // don't let the browser navigate
     },
